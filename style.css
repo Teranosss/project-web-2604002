@@ -12,8 +12,42 @@ figure img {
     width: 50%;
 } */
 
-* {
+/* * {
     box-sizing: border-box;
+} */
+
+Project P05 Web
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: min(100% - 32px, 1100px);
+    margin-inline: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.site-nav ul {
+    display: flexl;
+    gap: 16px;
+    flex-warp: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.card-list {
+    display:flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.card {
+    flex: 1 1 260px;
 }
 
 html {
